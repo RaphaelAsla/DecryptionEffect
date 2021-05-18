@@ -1,13 +1,19 @@
 import os
-from time import sleep
-text = input()
+import time
+import sys
+import platform
+if sys.platform == "win32":
+    clear = 'cls'
+elif sys.platform != "win32":
+    clear = 'clear'
+text = "lxxt>33mqtvsgshiv2oette"
 temp = ""
 c = 0
 for k in text:
-    key = temp 
+    key = temp
     c += 1
-    for i in range(25,3,-1):   
-        os.system('cls') 
+    for i in range(25,3,-1):
+        os.system(clear)
         temp = key + chr(ord(k)-i)
         print(temp + text[c:])
-        sleep(0.0001)
+        time.sleep(0.01)
