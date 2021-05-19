@@ -12,7 +12,7 @@ c = 0
 for k in text:
     key = temp
     c += 1
-    for i in range(25,3,-1):
+    for i in range(20,3,-1):
         os.system(clear)
         temp = key + chr(ord(k)-i)
         print(temp + text[c:])
