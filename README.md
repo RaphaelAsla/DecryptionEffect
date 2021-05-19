@@ -1,4 +1,4 @@
-![Peek 2021-05-19 12-36](https://user-images.githubusercontent.com/65507003/118791065-077ee680-b89f-11eb-8ec2-e5b2b7977b0d.gif)
+![Peek 2021-05-19 12-36](https://user-images.githubusercontent.com/65507003/118802688-1bc8e080-b8ab-11eb-88fb-7550d1b3ac91.gif)
 # Caesar Cipher Decoder + Decryption Effect
 
 Works for linux and windows
