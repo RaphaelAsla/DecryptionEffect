@@ -6,7 +6,7 @@ if sys.platform == "win32":
     clear = 'cls'
 elif sys.platform != "win32":
     clear = 'clear'
-text = "lxxt>33mqtvsgshiv2oette"
+text = input()
 temp = ""
 c = 0
 for k in text:
