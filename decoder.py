@@ -23,9 +23,9 @@ try:
         c += 1
         for i in range(25,3,-1):
             os.system(clear)
-            if sys.argv[1] == "-d":
+            if args.decode:
                 temp = key + chr(ord(k)-i)
-            elif sys.argv[1] == "-e":
+            elif args.encode:
                 temp = key + chr(ord(k)+i)
             print("\n" + "   " + temp + text[c:])
             time.sleep(args.speed)
