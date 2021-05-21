@@ -14,6 +14,6 @@ This is Caesar Cipher (4 shift) decoder with a little decryption effect.
 
 You can also Encrypt the input by changing '-i' to '+i'.
 
-<div weight=900>
-Thanks to h1no for the command line arguments!
+<div>
+  <h3>Thanks to h1no for the command line arguments!</h3>
   </div>
