@@ -31,4 +31,4 @@ try:
             time.sleep(args.speed)
 except:
     os.system(clear)
-    print( "  Please enclose the string in qoutes \n  Use the following syntax: \n  python3 decoder.py -d -i string -s float \n  or \n  python3 decoder.py -e -i string -s float")
+    print( "  Please enclose the string in qoutes \n  Use the following syntax: \n  python decoder.py -d -i string -s float \n  or \n  python decoder.py -e -i string -s float")
