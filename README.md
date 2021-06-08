@@ -12,7 +12,7 @@ Works for linux and windows
 
 This is Caesar Cipher (4 shift) decoder with a little decryption effect.
 
-You can also Encrypt the input by changing '-i' to '+i'.
+Usage:  py decoder.py -d -i string -s float (to decrypt) or  py decoder.py -e -i string -s float (to encrypt)
 
 <div>
   <h3>Thanks to h1n0 for the command line arguments!</h3>
